@@ -1519,3 +1519,17 @@ img {
   gap: 1rem;
   font-size: 0.8rem;
 }
+.top-announcement [data-i18n="announcement"] {
+  display: inline-block;
+  white-space: nowrap;
+  animation: announcement-scroll 12s linear infinite;
+}
+
+@keyframes announcement-scroll {
+  from {
+    transform: translateX(100vw);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
