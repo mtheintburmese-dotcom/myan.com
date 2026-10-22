@@ -1,18 +1,4 @@
-.moving-text {
-  white-space: nowrap;
-  display: inline-block;
-  animation: moveLeft 10s linear infinite;
-}
-
-@keyframes moveLeft {
-  from {
-    transform: translateX(100vw);
-  }
-
-  to {
-    transform: translateX(-100%);
-  }
-}/* ==========================================================================
+/* ==========================================================================
    Myan Mart - Design System & UI Styles
    Based on: myan_mart_design_specification.md & myan_mart_ai_integration_blueprint.md
    ========================================================================== */
